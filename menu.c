@@ -23,11 +23,12 @@ int Test(int argc, char* argv[])
 　　switch(ch)
 　　{
 　　//case : printf("cmdtest");
-　　case 'a': printf("option a:’%s’\n",optarg); break;
+　　case 'a': printf("option a:a\n"); break;
+    case 'b': printf("option b:b\n"); break;
 　//　case 'b': printf("option b :b\n"); break;
-　　default: printf("other option :%c\n",ch);
+　　default: printf("other option :c");
 　　}
-　　printf("optopt +%c\n",optopt);
+　　//printf("optopt +%c\n",optopt);
 　　}
 　　return 0;
 }
